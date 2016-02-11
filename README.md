@@ -17,4 +17,4 @@ Another Note: This only works for links that link to an id on the page, an examp
 <a href="#top" class="scroll">Scroll to top</a>
 ```
 
-The alternative is that you can include the link-scrolling.js file which will automatically add the scrolling ability to any links with the class of scroll on them
+The alternative is that you can include the auto-scroll.js file which will automatically add the scrolling ability to any links with the class of scroll on them
