@@ -9,6 +9,8 @@ To use the function give it a classname (that is added to links), a duration for
 linkScrolling('scroll', 600, 0);
 ```
 
+The alternative is that you can include the auto-scroll.js file which will automatically add the scrolling ability to any links with the class of scroll on them
+
 Note: the variables don't need to be set as there are defaults (which are the ones used in the example)
 
 Another Note: This only works for links that link to an id on the page, an example element is below
@@ -16,5 +18,3 @@ Another Note: This only works for links that link to an id on the page, an examp
 ```html
 <a href="#top" class="scroll">Scroll to top</a>
 ```
-
-The alternative is that you can include the auto-scroll.js file which will automatically add the scrolling ability to any links with the class of scroll on them
