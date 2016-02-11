@@ -1,2 +1,14 @@
 # link-scrolling
 This is a small vanilla javascript helper to add link scrolling to a site
+
+
+## Function Usage
+To use the function give it a classname (that is added to links), a duration for the animation and the height of the navigation in the case that it is fixed as below:
+
+```javascript
+linkScrolling('scroll', 600, 0);
+```
+
+Note: the variables don't need to be set as there are defaults (which are the ones used in the example)
+
+The alternative is that you can include the link-scrolling.js file which will automatically add the scrolling ability to any links with the class of scroll on them
